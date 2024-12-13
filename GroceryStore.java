@@ -24,7 +24,7 @@ public class GroceryStore {
         Customer customer = new Customer("Joseph");
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the Grocery Store!");
+        System.out.println("Welcome to the Liquor Store!");
         boolean shopping = true;
 
         while (shopping) {

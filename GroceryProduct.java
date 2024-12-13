@@ -5,6 +5,6 @@ public class GroceryProduct extends Product {
 
     @Override
     public void displayDetails() {
-        System.out.println(getName() + " - $" + getPrice() + " per unit, Quantity: " + getQuantity());
+        System.out.println(getName() + " - Php" + getPrice() + " per unit, Quantity: " + getQuantity());
     }
 }
