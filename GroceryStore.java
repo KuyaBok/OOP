@@ -5,11 +5,18 @@ import java.util.Scanner;
 public class GroceryStore {
     public static void main(String[] args) {
         List<Product> products = new ArrayList<>();
-        products.add(new GroceryProduct("Apple", 1.0, 0));
-        products.add(new GroceryProduct("Banana", 0.5, 0));
-        products.add(new GroceryProduct("Orange", 1.5, 0));
+        products.add(new GroceryProduct("Black Label (1L)", 1339.00, 0));
+        products.add(new GroceryProduct("Alfonso (1L)", 340.00, 0));
+        products.add(new GroceryProduct("Jack Daniel (700ml)", 1249.00, 0));
+        products.add(new GroceryProduct("Emperador Light (1L)", 300.00, 0));
+        products.add(new GroceryProduct("Red Horse (1L)", 130.00, 0));
+        products.add(new GroceryProduct("Pale Pilsen (Grande)", 90.00, 0));
+        products.add(new GroceryProduct("San Mig Light (330ml)", 60.00, 0));
 
-        Customer customer = new Customer("Alice");
+
+
+
+        Customer customer = new Customer("Joseph");
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Grocery Store!");
@@ -30,7 +37,7 @@ public class GroceryStore {
                 break;
             } else if (choice > 0 && choice <= products.size()) {
                 Product selectedProduct = products.get(choice - 1);
-                System.out.print("Enter quantity: ");
+                System.out.print(selectedProduct.getName() + " " +  "Enter quantity: ");
                 int quantity = scanner.nextInt();
                 customer.addToCart(selectedProduct, quantity);
             } else {

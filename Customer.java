@@ -27,13 +27,13 @@ public class Customer {
 
     public void checkout() {
         double total = calculateTotal();
-        System.out.println("Total cost: ₱" + total);
+        System.out.println("Total cost: Php" + total);
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter payment amount: ₱");
+        System.out.print("Enter payment amount: Php");
         double payment = scanner.nextDouble();
 
         if (payment >= total) {
-            System.out.println("Payment successful! Change: ₱" + (payment - total));
+            System.out.println("Payment successful! Change: Php" + (payment - total));
         } else {
             System.out.println("Insufficient payment. Please try again.");
         }
