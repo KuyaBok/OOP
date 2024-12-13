@@ -14,7 +14,7 @@ public class Customer {
     public void addToCart(Product product, int quantity) {
         product.setQuantity(quantity);
         cart.add(product);
-        System.out.println(quantity + " " + product.getName() + "(s) added to cart.");
+        System.out.println(quantity + " " + product.getName() + " added to cart.");
     }
 
     public double calculateTotal() {
