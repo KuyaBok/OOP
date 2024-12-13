@@ -9,9 +9,14 @@ public class GroceryStore {
         products.add(new GroceryProduct("Alfonso (1L)", 340.00, 0));
         products.add(new GroceryProduct("Jack Daniel (700ml)", 1249.00, 0));
         products.add(new GroceryProduct("Emperador Light (1L)", 300.00, 0));
+        products.add(new GroceryProduct("Fundador Light (1L)", 490.00, 0));
         products.add(new GroceryProduct("Red Horse (1L)", 130.00, 0));
         products.add(new GroceryProduct("Pale Pilsen (Grande)", 90.00, 0));
         products.add(new GroceryProduct("San Mig Light (330ml)", 60.00, 0));
+        products.add(new GroceryProduct("Heineken (330ml)", 90.00, 0));
+        products.add(new GroceryProduct("Smirnoff Mule (330ml)", 70.00, 0));
+        products.add(new GroceryProduct("Tiger Can (500ml)", 75.00, 0));
+        
 
 
 
