@@ -6,8 +6,7 @@ public class Customer {
     private String name;
     private List<Product> cart;
 
-    public Customer(String name) {
-        this.name = name;
+    public Customer() {
         this.cart = new ArrayList<>();
     }
 

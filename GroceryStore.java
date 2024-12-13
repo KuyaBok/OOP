@@ -21,7 +21,7 @@ public class GroceryStore {
 
 
 
-        Customer customer = new Customer("Joseph");
+        Customer customer = new Customer();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Liquor Store!");
