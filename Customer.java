@@ -25,6 +25,7 @@ public class Customer {
     }
 
     public void checkout() {
+        
         double total = calculateTotal();
         System.out.println("Total cost: Php" + total);
         Scanner scanner = new Scanner(System.in);
